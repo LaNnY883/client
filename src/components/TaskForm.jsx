@@ -62,7 +62,8 @@ export default function TaskForm({
  type="button"
  onClick={onCancel}
  aria-label="Закрыть форму"
- >x
+ >
+   x
  </button>
  </div>
  <form onSubmit={handleSubmit}>
@@ -87,7 +88,7 @@ export default function TaskForm({
  />
  </label>
  <label className="field">
-    <span>Статус</span>
+   <span>Статус</span>
  <select
  name="status"
  value={formData.status}

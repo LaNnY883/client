@@ -335,7 +335,7 @@ taskDate {
 .filterField select,
 .field input,
 .field select {
-  width: 100%;
+ width: 100%;
  min-height: 44px;
  border: 1px solid #d0d5dd;
  border-radius: 10px;
@@ -383,7 +383,7 @@ taskDate {
  color: #b42318;
 }
 .taskActions .dangerAction:hover {
-  background: #fef3f2;
+ background: #fef3f2;
 }
 .emptyState {
  display: grid;
